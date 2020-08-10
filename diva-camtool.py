@@ -1,6 +1,5 @@
 from math import pi # Grab PI for the deg to rad conversion
 from sys import argv # For arguments to define file names
-import json # for json stuff, though i don't use it at all
 
 #HUGE credits to minmode, because this script is highly based off his camera base's bone structure
 # *and to minmode, if you find this and don't like that i'm using that as a basis to test (even though it doesn't necessarily need you specific diva_camera.pmx
