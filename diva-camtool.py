@@ -38,11 +38,11 @@ if len(argv) > 1:
     infile = argv[1]
     outfile = argv[2]
 
-if infile[-:3] != 'csv':
+if infile[-3] != 'c':
     print('input file not csv, exiting script. if you\'re having issues, then try looking on Google for a program \'VMDConverterGraphical\', it should be the first result.)
     exit()
 
-if outfile[-:4] != 'json':
+if outfile[-4] != 'j':
     print('output file name not json. this script outputs a json file for use with PD_Tool, so please name your output file accordingly')
     exit()
 
