@@ -22,6 +22,7 @@
 
 from math import pi # Grab PI for the deg to rad conversion
 from sys import argv # For arguments to define file names
+import re
 
 #HUGE credits to minmode, because this script is highly based off his camera base's bone structure
 # *and to minmode, if you find this and don't like that i'm using that as a basis to test (even though it doesn't necessarily need you specific diva_camera.pmx
@@ -36,7 +37,15 @@ outfile = 'cam.json'
 if len(argv) > 1:
     infile = argv[1]
     outfile = argv[2]
-    
+
+if infile[-:3] != 'csv':
+    print('input file not csv, exiting script. if you\'re having issues, then try looking on Google for a program \'VMDConverterGraphical\', it should be the first result.)
+    exit()
+
+if outfile[-:4] != 'json':
+    print('output file name not json. this script outputs a json file for use with PD_Tool, so please name your output file accordingly')
+    exit()
+
 out_str = """"""
     
 Key_End_Str = """\
