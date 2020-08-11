@@ -38,7 +38,7 @@ if len(argv) > 1:
     outfile = argv[2]
 
 if infile[-3] != 'c':
-    print('input file not csv, exiting script. if you\'re having issues, then try looking on Google for a program \'VMDConverterGraphical\', it should be the first result.)
+    print('input file not csv, exiting script. if you\'re having issues, then try looking on Google for a program \'VMDConverterGraphical\', it should be the first result.')
     exit()
 
 if outfile[-4] != 'j':
