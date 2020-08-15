@@ -13,7 +13,7 @@ For view_point, add a copy location and copy rotation constraint and set both to
 
 For interest, add a copy location constraint and set it to target the MMD_Camera object
 
-For FOV, set a dummy keyframe in Euler mode (Use the "Whole Character (Selected Bones Only)" Keying option) just to set up the dope sheet view, then open the dope sheet view, right click one of the angle() key frames, then with the mouse still on it use L to select Linked
+For FOV, set a dummy keyframe in Euler mode (Use the "Whole Character (Selected Bones Only)" Keying option) just to set up the dope sheet view, then open the dope sheet view, expand the MMD_Camera object, right click one of the angle() key frames, then with the mouse still on it use L to select Linked
 
 Use Ctrl + C to copy the angle() key frames, then select the fov bone's Euler X rotation line and paste with Ctrl + V
 
