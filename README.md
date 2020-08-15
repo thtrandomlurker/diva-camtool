@@ -8,7 +8,7 @@ Next load your MMD camera VMD onto the camera you just added with a margin of 0 
 Then add an armature with the bones "view_point", "interest" and "fov", make sure these are all located at 0,0,0
 For view_point, add a copy location and copy rotation constraint and set both to target the camera object (NOT MMD_Camera)
 For interest, add a copy location constraint and set it to target the MMD_Camera object
-For FOV, set a dummy keyframe in Euler mode just to set up the dope sheet view, then open the dope sheet view, right click one of the angle() key frames, then with the mouse still
+For FOV, set a dummy keyframe in Euler mode (Use the "Whole Character (Selected Bones Only)" Keying option) just to set up the dope sheet view, then open the dope sheet view, right click one of the angle() key frames, then with the mouse still
 on it use L to select Linked
 Use Ctrl + C to copy the angle() key frames, then select the fov bone's Euler X rotation line and paste with Ctrl + V
 go back to the 3d view and select the view_point and interest bones, then use bake action with only selected, clear constraints, visual keying and overwrite current action
