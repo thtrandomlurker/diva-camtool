@@ -314,9 +314,9 @@ with open(infile, 'r', encoding='Shift-JIS') as cam_csv:
             
             # Radians Conversion
             
-            DIVATransX = float(MMDTransX) * pi/180
-            DIVATransY = float(MMDTransY) * pi/180
-            DIVATransZ = float(MMDTransZ) * pi/180
+            DIVATransX = float(MMDTransX)
+            DIVATransY = float(MMDTransY)
+            DIVATransZ = float(MMDTransZ)
             DIVARotX = float(MMDRotXScale) * pi/180
             DIVARotY = float(MMDRotY) * pi/180
             DIVARotZ = float(MMDRotZ) * pi/180
@@ -362,9 +362,9 @@ with open(infile, 'r', encoding='Shift-JIS') as cam_csv:
             
             # Scale
             
-            MMDTransXScale = float(MMDTransX) * float(5)
-            MMDTransYScale = float(MMDTransY) * float(5)
-            MMDTransZScale = float(MMDTransZ) * float(5)
+            MMDTransXScale = float(MMDTransX)
+            MMDTransYScale = float(MMDTransY)
+            MMDTransZScale = float(MMDTransZ)
             
             # Negative
             
@@ -372,9 +372,9 @@ with open(infile, 'r', encoding='Shift-JIS') as cam_csv:
             
             # Radians Conversion
             
-            DIVATransX = float(MMDTransXScale) * pi/180
-            DIVATransY = float(MMDTransYScale) * pi/180
-            DIVATransZ = float(MMDTransZNeg) * pi/180
+            DIVATransX = float(MMDTransXScale) * float(0.08)
+            DIVATransY = float(MMDTransYScale) * float(0.08)
+            DIVATransZ = float(MMDTransZNeg) * float(0.08)
             DIVARotX = float(MMDRotX) * pi/180
             DIVARotY = float(MMDRotY) * pi/180
             DIVARotZ = float(MMDRotZ) * pi/180
@@ -419,9 +419,9 @@ with open(infile, 'r', encoding='Shift-JIS') as cam_csv:
             
             # Scale
             
-            MMDTransXScale = float(MMDTransX) * float(4.57971014493)
-            MMDTransYScale = float(MMDTransY) * float(4.57971014493)
-            MMDTransZScale = float(MMDTransZ) * float(4.57971014493)
+            MMDTransXScale = float(MMDTransX) * float(0.08)
+            MMDTransYScale = float(MMDTransY) * float(0.08)
+            MMDTransZScale = float(MMDTransZ) * float(0.08)
             
             # Negative
             
@@ -429,9 +429,9 @@ with open(infile, 'r', encoding='Shift-JIS') as cam_csv:
             
             # Radians Conversion
             
-            DIVATransX = float(MMDTransXScale) * pi/180
-            DIVATransY = float(MMDTransYScale) * pi/180
-            DIVATransZ = float(MMDTransZNeg) * pi/180
+            DIVATransX = float(MMDTransXScale)
+            DIVATransY = float(MMDTransYScale)
+            DIVATransZ = float(MMDTransZNeg)
             DIVARotX = float(MMDRotX) * pi/180
             DIVARotY = float(MMDRotY) * pi/180
             DIVARotZ = float(MMDRotZ) * pi/180
@@ -476,9 +476,9 @@ with open(infile, 'r', encoding='Shift-JIS') as cam_csv:
             
             # Scale
             
-            MMDTransXScale = float(MMDTransX) * float(4.57971014493)
-            MMDTransYScale = float(MMDTransY) * float(4.57971014493)
-            MMDTransZScale = float(MMDTransZ) * float(4.57971014493)
+            MMDTransXScale = float(MMDTransX) * float(0.08)
+            MMDTransYScale = float(MMDTransY) * float(0.08)
+            MMDTransZScale = float(MMDTransZ) * float(0.08)
             
             # Negative
             
@@ -486,9 +486,9 @@ with open(infile, 'r', encoding='Shift-JIS') as cam_csv:
             
             # Radians Conversion
             
-            DIVATransX = float(MMDTransXScale) * pi/180
-            DIVATransY = float(MMDTransYScale) * pi/180
-            DIVATransZ = float(MMDTransZNeg) * pi/180
+            DIVATransX = float(MMDTransXScale)
+            DIVATransY = float(MMDTransYScale)
+            DIVATransZ = float(MMDTransZNeg)
             DIVARotX = float(MMDRotX) * pi/180
             DIVARotY = float(MMDRotY) * pi/180
             DIVARotZ = float(MMDRotZ) * pi/180
@@ -533,9 +533,9 @@ with open(infile, 'r', encoding='Shift-JIS') as cam_csv:
             
             # Scale
             
-            MMDTransXScale = float(MMDTransX) * float(4.57971014493)
-            MMDTransYScale = float(MMDTransY) * float(4.57971014493)
-            MMDTransZScale = float(MMDTransZ) * float(4.57971014493)
+            MMDTransXScale = float(MMDTransX) * float(0.08)
+            MMDTransYScale = float(MMDTransY) * float(0.08)
+            MMDTransZScale = float(MMDTransZ) * float(0.08)
             
             # Negative
             
@@ -543,9 +543,9 @@ with open(infile, 'r', encoding='Shift-JIS') as cam_csv:
             
             # Radians Conversion
             
-            DIVATransX = float(MMDTransXScale) * pi/180
-            DIVATransY = float(MMDTransYScale) * pi/180
-            DIVATransZ = float(MMDTransZNeg) * pi/180
+            DIVATransX = float(MMDTransXScale)
+            DIVATransY = float(MMDTransYScale)
+            DIVATransZ = float(MMDTransZNeg)
             DIVARotX = float(MMDRotX) * pi/180
             DIVARotY = float(MMDRotY) * pi/180
             DIVARotZ = float(MMDRotZ) * pi/180
@@ -590,9 +590,9 @@ with open(infile, 'r', encoding='Shift-JIS') as cam_csv:
             
             # Scale
             
-            MMDTransXScale = float(MMDTransX) * float(4.57971014493)
-            MMDTransYScale = float(MMDTransY) * float(4.57971014493)
-            MMDTransZScale = float(MMDTransZ) * float(4.57971014493)
+            MMDTransXScale = float(MMDTransX) * float(0.08)
+            MMDTransYScale = float(MMDTransY) * float(0.08)
+            MMDTransZScale = float(MMDTransZ) * float(0.08)
             
             # Negative
             
@@ -600,9 +600,9 @@ with open(infile, 'r', encoding='Shift-JIS') as cam_csv:
             
             # Radians Conversion
             
-            DIVATransX = float(MMDTransXScale) * pi/180
-            DIVATransY = float(MMDTransYScale) * pi/180
-            DIVATransZ = float(MMDTransZNeg) * pi/180
+            DIVATransX = float(MMDTransXScale)
+            DIVATransY = float(MMDTransYScale)
+            DIVATransZ = float(MMDTransZNeg)
             DIVARotX = float(MMDRotX) * pi/180
             DIVARotY = float(MMDRotY) * pi/180
             DIVARotZ = float(MMDRotZ) * pi/180
@@ -647,9 +647,9 @@ with open(infile, 'r', encoding='Shift-JIS') as cam_csv:
             
             # Scale
             
-            MMDTransXScale = float(MMDTransX) * float(4.57971014493)
-            MMDTransYScale = float(MMDTransY) * float(4.57971014493)
-            MMDTransZScale = float(MMDTransZ) * float(4.57971014493)
+            MMDTransXScale = float(MMDTransX) * float(0.08)
+            MMDTransYScale = float(MMDTransY) * float(0.08)
+            MMDTransZScale = float(MMDTransZ) * float(0.08)
             
             # Negative
             
@@ -657,9 +657,9 @@ with open(infile, 'r', encoding='Shift-JIS') as cam_csv:
             
             # Radians Conversion
             
-            DIVATransX = float(MMDTransXScale) * pi/180
-            DIVATransY = float(MMDTransYScale) * pi/180
-            DIVATransZ = float(MMDTransZNeg) * pi/180
+            DIVATransX = float(MMDTransXScale)
+            DIVATransY = float(MMDTransYScale)
+            DIVATransZ = float(MMDTransZNeg)
             DIVARotX = float(MMDRotX) * pi/180
             DIVARotY = float(MMDRotY) * pi/180
             DIVARotZ = float(MMDRotZ) * pi/180
@@ -704,9 +704,9 @@ with open(infile, 'r', encoding='Shift-JIS') as cam_csv:
             
             # Scale
             
-            MMDTransXScale = float(MMDTransX) * float(4.57971014493)
-            MMDTransYScale = float(MMDTransY) * float(4.57971014493)
-            MMDTransZScale = float(MMDTransZ) * float(4.57971014493)
+            MMDTransXScale = float(MMDTransX) * float(0.08)
+            MMDTransYScale = float(MMDTransY) * float(0.08)
+            MMDTransZScale = float(MMDTransZ) * float(0.08)
             
             # Invert the rotation
             
@@ -714,9 +714,9 @@ with open(infile, 'r', encoding='Shift-JIS') as cam_csv:
             
             # Radians Conversion
             
-            DIVATransX = float(MMDTransXScale) * pi/180
-            DIVATransY = float(MMDTransYScale) * pi/180
-            DIVATransZ = float(MMDTransZNeg) * pi/180
+            DIVATransX = float(MMDTransXScale)
+            DIVATransY = float(MMDTransYScale)
+            DIVATransZ = float(MMDTransZNeg)
             DIVARotX = float(MMDRotX) * pi/180
             DIVARotY = float(MMDRotY) * pi/180
             DIVARotZ = float(MMDRotZNeg) * pi/180
